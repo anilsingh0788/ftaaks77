@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="public/js/|routes/|**/*.min.js|**/node_modules/*|public/scripts/|**/bower_components/*|public/source/" kind="src" path=""/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="public/js"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="public/scripts"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="public/source"/>
+	<classpathentry excluding="**/*.min.js|**/node_modules/*|**/bower_components/*" kind="src" path="routes"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

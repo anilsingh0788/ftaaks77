@@ -1,0 +1,14 @@
+declared-services:
+  FUNDTRANSFERAPPLICATION-DB:
+    label: cloudantNoSQLDB
+    plan: Shared
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ftaaks77
+  host: ftaaks77
+  disk_quota: 1024M
+  services:
+  - FUNDTRANSFERAPPLICATION-DB
